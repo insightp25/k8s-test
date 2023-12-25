@@ -1,0 +1,145 @@
+26-Dec-2023 00:30:28.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.84
+26-Dec-2023 00:30:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 19:27:40 UTC
+26-Dec-2023 00:30:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.84.0
+26-Dec-2023 00:30:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Dec-2023 00:30:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.1.1
+26-Dec-2023 00:30:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Dec-2023 00:30:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/dongwooksongpro/Library/Java/JavaVirtualMachines/azul-17.0.6/Contents/Home
+26-Dec-2023 00:30:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+26-Dec-2023 00:30:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+26-Dec-2023 00:30:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84
+26-Dec-2023 00:30:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84
+26-Dec-2023 00:30:28.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Dec-2023 00:30:28.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Dec-2023 00:30:28.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Dec-2023 00:30:28.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/conf/logging.properties
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84
+26-Dec-2023 00:30:28.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/temp
+26-Dec-2023 00:30:28.136 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/dongwooksongpro/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Dec-2023 00:30:28.404 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Dec-2023 00:30:28.428 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1332)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1345)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+26-Dec-2023 00:30:28.429 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [507] milliseconds
+26-Dec-2023 00:30:28.469 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Dec-2023 00:30:28.469 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.84]
+26-Dec-2023 00:30:28.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/docs]
+26-Dec-2023 00:30:28.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/docs] has finished in [234] ms
+26-Dec-2023 00:30:28.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/manager]
+26-Dec-2023 00:30:28.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/manager] has finished in [28] ms
+26-Dec-2023 00:30:28.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/examples]
+26-Dec-2023 00:30:28.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/examples] has finished in [214] ms
+26-Dec-2023 00:30:28.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/ROOT]
+26-Dec-2023 00:30:28.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/ROOT] has finished in [15] ms
+26-Dec-2023 00:30:28.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/host-manager]
+26-Dec-2023 00:30:28.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Downloads/apache-tomcat-9.0.84/webapps/host-manager] has finished in [18] ms
+26-Dec-2023 00:30:28.990 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [561] milliseconds
+26-Dec-2023 00:31:25.493 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Dec-2023 00:31:25.493 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Dec-2023 00:31:25.494 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Dec-2023 00:31:25.520 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Dec-2023 00:31:25.522 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Dec-2023 00:32:19.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.84
+26-Dec-2023 00:32:19.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 19:27:40 UTC
+26-Dec-2023 00:32:19.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.84.0
+26-Dec-2023 00:32:19.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Dec-2023 00:32:19.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.1.1
+26-Dec-2023 00:32:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Dec-2023 00:32:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/dongwooksongpro/Library/Java/JavaVirtualMachines/azul-17.0.6/Contents/Home
+26-Dec-2023 00:32:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+26-Dec-2023 00:32:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+26-Dec-2023 00:32:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84
+26-Dec-2023 00:32:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84
+26-Dec-2023 00:32:19.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Dec-2023 00:32:19.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Dec-2023 00:32:19.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Dec-2023 00:32:19.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Dec-2023 00:32:19.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Dec-2023 00:32:19.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/conf/logging.properties
+26-Dec-2023 00:32:19.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2023 00:32:19.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Dec-2023 00:32:19.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Dec-2023 00:32:19.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Dec-2023 00:32:19.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Dec-2023 00:32:19.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84
+26-Dec-2023 00:32:19.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84
+26-Dec-2023 00:32:19.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/temp
+26-Dec-2023 00:32:19.109 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/dongwooksongpro/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Dec-2023 00:32:19.343 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Dec-2023 00:32:19.360 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1332)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1345)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+26-Dec-2023 00:32:19.361 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [480] milliseconds
+26-Dec-2023 00:32:19.394 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Dec-2023 00:32:19.394 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.84]
+26-Dec-2023 00:32:19.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/docs]
+26-Dec-2023 00:32:19.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/docs] has finished in [230] ms
+26-Dec-2023 00:32:19.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/manager]
+26-Dec-2023 00:32:19.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/manager] has finished in [29] ms
+26-Dec-2023 00:32:19.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/examples]
+26-Dec-2023 00:32:19.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/examples] has finished in [235] ms
+26-Dec-2023 00:32:19.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/ROOT]
+26-Dec-2023 00:32:19.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/ROOT] has finished in [15] ms
+26-Dec-2023 00:32:19.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/host-manager]
+26-Dec-2023 00:32:19.930 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/dongwooksongpro/Desktop/k8s-test/apache-tomcat-9.0.84/webapps/host-manager] has finished in [17] ms
+26-Dec-2023 00:32:19.933 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [571] milliseconds
